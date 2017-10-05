@@ -107,7 +107,7 @@ h1 {
 
 }
 
-.container-top {
+container-top {
   width: 100vw;
   border: 1px solid black;
   position: fixed;
@@ -127,13 +127,53 @@ h1 {
 
 }
 
+@media all and (max-width: 992px) {
+  .bar-bottom {
+    background-color: orange;
+    border: none;
+  }
+
+  .container-top {
+    background-color: orange;
+    margin: 0 auto;
+  }
+
+  .container-body {
+    display: block;
+    margin: 0 auto;
+  }
+
+@media all and (max-width: 768px) {
+  .bar-bottom {
+    display: none;
+    border: none;
+  }
+
+  .container-top {
+    background-color: blue;
+    margin: 0 auto;
+  }
+
+  .container-body {
+  display: block;
+    align: left;
+    margin: 0 auto;
+  }
+
 @media all and (max-width: 480px) {
   .bar-bottom {
     display: none;
     border: none;
   }
 
+  .container-top {
+    background-color: red;
+    margin: 0 auto;
+  }
+
   .container-body {
   display: block;
+    align: left;
+    margin: 0 auto;
   }
-}
+  }
