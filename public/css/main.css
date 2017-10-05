@@ -103,6 +103,7 @@ h1 {
 }
 
 .hawaii {
+  margin: 0 auto;
   padding: 20px;
 
 }
@@ -138,8 +139,9 @@ container-top {
     margin: 0 auto;
   }
 
-  .container-body {
+  .container-body .sf .la .hawaii {
     display: block;
+    float: left;
     margin: 0 auto;
   }
 
@@ -154,7 +156,7 @@ container-top {
     margin: 0 auto;
   }
 
-  .container-body {
+  .container-body .sf .hawaii .la {
   display: block;
     align: left;
     margin: 0 auto;
@@ -171,9 +173,9 @@ container-top {
     margin: 0 auto;
   }
 
-  .container-body {
-  display: block;
-    align: left;
+  .container-body .sf .hawaii .la {
+    display: inline-block;
+    width: 50%;
     margin: 0 auto;
   }
-  }
+}
