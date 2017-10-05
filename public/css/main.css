@@ -2,6 +2,23 @@
   margin: 0 auto;
 }
 
+.hero-image {
+    ;
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-text {
+    text-align: left;
+    color: black;
+    position: absolute;
+    top: 200px;
+  }
+
+
 .picture {
   display: block;
   text-align: center;
