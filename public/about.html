@@ -1,196 +1,72 @@
-* {
-  margin: 0 auto;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
 
-.picture {
-  display: block;
-  margin: 0 auto;
-}
 
-.container-top {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: green;
-}
+  <header>
+  <div class="container-top">
+        <ul>
+        <li class="bar-item"><a href="index.html">Home</a></li>
+        <li class="bar-item"><a href="about.html">About</a></li>
+        <li class="bar-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
 
-.bar-item {
-  display: inline;
-  width: 40px;
-  text-align: center;
-  border-right: 1px solid white;
-  height: 80px;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 1.5em;
-  margin-top: 5px;
-}
 
-.bar-item a {
-  display: inline;
-  color: white;
-  text-align: left;
-  text-decoration: none;
-  padding: 20px 20px;
-}
+  </header>
 
-li:hover {
-  background-color: black;
-  border-bottom: 1px white solid;
-}
+<header>
+  <h1>Places I've been</h1>
+</header>
 
-.bar-bottom-item {
-  display: inline;
-  width: 40px;
-  text-align: center;
-  border-right: 1px solid white;
-  height: 80px;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 1.5em;
-  margin-top: 5px;
-}
+<article>
+  <div class="container-body">
+   <div class="sf"> <h2>San Francisco</h2>
+  <img src="http://t.wallpaperweb.org/wallpaper/buildings/1600x1200/The_City_by_the_Bay_San_Francisco_California.jpg" alt="San Fran" style="width: 300px; height: 300px;">
+</div>
 
-.bar-bottom-item a {
-  display: inline;
-  color: white;
-  text-align: left;
-  text-decoration: none;
-  padding: 20px 20px;
-}
 
-.intro-paragraph {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 25px;
-  padding-bottom: 10px;
-}
+  <div class="la"> <h2>Los Angeles</h2>
+    <img src="https://www.aada.edu/template/frontend/img/campus-overview/la-1.jpg" alt="LA" style="width: 300px; height: 300px;">
+  </div>
 
-h1 {
-  margin: 0 auto;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 100px;
-}
 
-.container-body {
-  display: inline;
-}
+    <div class="hawaii"> <h2>Hawaii</h2>
+      <img src="http://kids.nationalgeographic.com/content/dam/kids/photos/States/A-I/hawaii-beach.adapt.945.1.png" alt="Hawaii" style="width: 300px; height: 300px;">
 
-.sf {
-  float: left;
-  display: block;
-  margin-left: 200px;
-  padding: 20px;
-}
+    </div>
 
-.la {
-  float: right;
-  display: block;
-  margin-right: 200px;
-  padding: 20px;
-}
+      <div class="niagara"> <h2>Niagara Falls</h2>
+      <img src="https://www.niagarafallsstatepark.com/~/media/parks/niagara-falls/homepage/banner-niagara2.jpg" alt="Niagara Falls" style="width: 300px; height: 300px;">
 
-.hawaii {
-  float: left;
-  display: block;
-  padding: 20px;
-  margin-left: 200px;
-  margin-bottom: 20px;
-}
+    </div>
+  </div>
 
-.niagara {
-  float: right;
-  display: block;
-  margin-right: 200px;
-  padding: 20px;
-}
+</article>
 
-container-top {
-  width: 100vw;
-  border: 1px solid black;
-  position: fixed;
-  top: 0;
-}
 
-.container-bottom {
-  position: fixed;
-  background-color: green;
-  width: 100vw;
-  bottom: 0;
-}
 
-.row {
-  display: inline;
-  padding: 20px;
-}
+<footer>
+  <div class="container-bottom">
 
-@media all and (max-width: 992px) {
+    <div class="bar-bottom">
+      <ul>
+        <li class="bar-bottom-item"><a href="http://www.facebook.com/michael.james.33449">Facebook</a></li>
+        <li class="bar-bottom-item"><a href="http://www.twitter.com/mjjames85">Twitter</a></li>
+        <li class="bar-bottom-item"><a href="https://www.linkedin.com/in/michael-james-40087a113/">LinkedIn</a></li>
 
-  .bar-bottom {
-    background-color: orange;
-    border: none;
-  }
+      </ul>
 
-  .container-top {
-    background-color: orange;
-    margin: 0 auto;
-  }
+    </div>
 
-  .sf, .la, .hawaii, .niagara {
-    display: block;
-    float: none;
-    margin-right: 0;
-    margin-left: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
+  </div>
+</footer>
 
-  h1 {
-    font-size: 15px;
-  }
 
-  @media all and (max-width: 768px) {
-    .bar-bottom {
-      display: none;
-      border: none;
-    }
-
-  .container-top {
-    background-color: blue;
-    margin: 0 auto;
-  }
-
-  .sf, .la, .hawaii, .niagara {
-    display: block;
-    float: none;
-    margin-right: 0;
-    margin-left: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-@media all and (max-width: 480px) {
-  .bar-bottom {
-    display: none;
-    border: none;
-  }
-
-  .container-top {
-    background-color: red;
-    margin: 0 auto;
-  }
-
-  .sf, .la, .hawaii, .niagara {
-    display: block;
-    float: none;
-    margin-right: 0;
-    margin-left: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
-
- }
+  </body>
+</html>
