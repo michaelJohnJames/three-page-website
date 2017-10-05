@@ -149,6 +149,10 @@ container-top {
     text-align: center;
   }
 
+  h1 {
+    font-size: 15px;
+  }
+
   @media all and (max-width: 768px) {
     .bar-bottom {
       display: none;
