@@ -2,16 +2,16 @@
   margin: 0 auto;
   }
 
-.container {
+/*.container {
   width: 600px;
-}
+}*/
 
-.img {
+.picture {
   display: block;
   margin: 0 auto;
 }
 
-.button-list {
+.container-top {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -77,18 +77,6 @@ li:hover {
 }
 
 
-.btn {
-  display: inline;
-  height: 2px;
-  width: 12px;
-  padding: 4px;
-  border: 2px solid black;
-  border-radius: 40%;
-  background-color: white;
-  text-decoration: none;
-}
-
-
 h1 {
   margin: 0 auto;
   text-align: center;
@@ -96,29 +84,56 @@ h1 {
   font-size: 100px;
   }
 
+.container-body {
+  display: inline
+
+}
+
+.sf {
+  float: left;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.la {
+  float: right;
+  display: inline;
+  margin-right: 200px;
+  padding: 20px;
+}
+
+.hawaii {
+  padding: 20px;
+
+}
+
 .container-top {
   width: 100vw;
   border: 1px solid black;
+  position: fixed;
+  top: 0;
   }
 
 .container-bottom {
+  position: fixed;
   background-color: green;
   width: 100vw;
-  border: 1px solid black;
+  bottom: 0;
   }
-
 
 .row {
   display: inline;
-  padding: 70px;
+  padding: 20px;
 
 }
 
 @media all and (max-width: 480px) {
   .bar-bottom {
     display: none;
+    border: none;
   }
-  viewport {
-    width: 480px;
+
+  .container-body {
+  display: block;
   }
 }
