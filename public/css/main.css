@@ -188,13 +188,16 @@ container-top {
 
   @media all and (max-width: 768px) {
     .bar-bottom {
-      display: none;
-      border: none;
+      background-color: blue;
     }
 
   .container-top {
     background-color: blue;
     margin: 0 auto;
+  }
+
+  .hero-image {
+    height: 100vh;
   }
 
   .sf, .la, .hawaii, .niagara {
@@ -207,9 +210,10 @@ container-top {
   }
 
 @media all and (max-width: 480px) {
+
   .bar-bottom {
-    display: none;
-    border: none;
+    background-color: red;
+    align: center;
   }
 
   .container-top {
