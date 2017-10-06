@@ -11,15 +11,38 @@
   }
 
 .hero-text {
+    animation: enter 1.5s 1;
     text-align: left;
+    margin-left: 20px;
     color: black;
     position: absolute;
     top: 200px;
   }
 
+  @keyframes enter {
+    0% {
+    transform: translateX(400px)
+  }
+
+    100% {
+    transform: translateX(0px)
+    }
+  }
+
   .hero-tag {
+    animation: begin 1.5s 1;
     font-size: 45px;
     font-family: sans-serif;
+    }
+
+    @keyframes begin {
+      0% {
+      transform: translateY(400px)
+    }
+
+      100% {
+      transform: translateY(0px)
+      }
     }
 
 
@@ -104,6 +127,8 @@ h1 {
   font-family: sans-serif;
   font-size: 100px;
 }
+
+
 
 .container-body {
   display: inline;
@@ -196,9 +221,12 @@ container-top {
     margin: 0 auto;
   }
 
-  .hero-image {
-    height: 100vh;
-  }
+  .hero-text {
+      text-align: center;
+      color: black;
+      position: absolute;
+      top: 20px;
+    }
 
   .sf, .la, .hawaii, .niagara {
     display: block;
@@ -220,6 +248,13 @@ container-top {
     background-color: red;
     margin: 0 auto;
   }
+
+  .hero-text {
+      text-align: center;
+      color: black;
+      position: absolute;
+      top: 300px;
+    }
 
   .sf, .la, .hawaii, .niagara {
     display: block;
