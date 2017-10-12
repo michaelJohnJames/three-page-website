@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+.homepage {
+  background-image: url("img/beach.jpg"); 
+}
+
 .hero-image {
     height: 20%;
     background-position: center;
